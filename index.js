@@ -5,7 +5,7 @@ const dict_text_to_dict = dict_text => {
         let [left, right] = lines[i].split('=');
         
         left = left || '';
-        right = right || (left || '');
+        right = right || '';
         arr.push([left, right]);
     }
 
