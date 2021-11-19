@@ -1,0 +1,17 @@
+label {
+    display: block;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#translate {
+    display: block;
+    font-size: larger;
+    background-color: green;
+    border-radius: 30px;
+}
+
+textarea {
+    display: block;
+}

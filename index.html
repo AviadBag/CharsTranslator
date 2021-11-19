@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Translator!</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <section id="def">
+            <label for="dict">Enter here the dictionary, in pairs. For example: a=b</label>
+            Right To Left? <input type="checkbox" id="dict-rtl">
+            <textarea id="dict" rows="30" cols="70"></textarea>
+        </section>
+        
+        <section id="io">
+            <label for="input">Enter here the input text</label>
+            Right To Left? <input type="checkbox" id="input-rtl">
+            <textarea id="input" rows="10" cols="70"></textarea>
+            
+            <button id="translate">Translate!</button>
+
+            <label for="output">Enter here the output text</label>
+            Right To Left? <input type="checkbox" id="output-rtl">
+            <textarea id="output" rows="10" cols="70"></textarea>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
